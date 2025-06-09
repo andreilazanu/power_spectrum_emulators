@@ -16,7 +16,7 @@ The machine learning models consist of
 - a *neural network*, with 2 2048-neuron hidden layers, with ReLU activation functions, followed by Dropout layers.
 - a *CatBoost* regression model.
 
-The simulations are split into a training and test, set and the model is validated with K-fold validation (k=5).
+The simulations are split into a training and test set and the model is validated with K-fold validation (k=5).
 The best prediction is given by the PCA version of the neural network, achieving better than 5% root-mean-square-relative-error on the test set.
 
 Other tree-based  methods are investigated but shown to perform worse.
