@@ -8,7 +8,7 @@ Emulators are models trained on N-body simulatios of the Universe, that can pred
 
 The simulations used are the Quijote suite, a publicly available set of 88000 simulations, available at https://quijote-simulations.readthedocs.io/en/latest/.
 
-In this work, the emulators are build using machine learning tools. The inputs (features) are the cosmological parameters (7 and 5 respectively), while the outputs (targets) are represented by the power spectra, all evaluated at the same k-values. As the number of targets is around 300, I am considering 2 options
+In this work, the emulators are build using machine learning tools. The inputs (features) are the cosmological parameters (7 and 5 respectively), while the outputs (targets) are represented by the power spectra, all evaluated at the same k-values. As the number of targets is around 300, I am considering 2 options:
 - using the full power spectra as targets
 - using data compression techniques, in particular Principal Component Analysis (PCA) to reduce the number of targets. 11 principal components accout for more than 99.5% of the variance of the data.
 
@@ -20,3 +20,5 @@ The simulations are split into a training and test, set and the model is validat
 The best prediction is given by the PCA version of the neural network, achieving better than 5% root-mean-square-relative-error on the test set.
 
 Other tree-based  methods are investigated but shown to perform worse.
+
+The 2 Jupyter notebooks show the results at redshift z=0. For other redshifts, the corresponding files can be easily modified in the notebook. Please also refer to the acocompagying paper for details.
