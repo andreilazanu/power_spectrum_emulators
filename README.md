@@ -19,6 +19,6 @@ The machine learning models consist of
 The simulations are split into a training and test set and the model is validated with K-fold validation (k=5).
 The best prediction is given by the PCA version of the neural network, achieving better than 5% root-mean-square-relative-error on the test set.
 
-Other tree-based  methods are investigated but shown to perform worse.
+Other tree-based methods (Random Forest regressors, LightGBM, XGBoost) are investigated but shown to perform worse.
 
 The 2 Jupyter notebooks show the results at redshift z=0. For other redshifts, the corresponding files can be easily modified in the notebook. Please also refer to the acocompagying paper for details.
