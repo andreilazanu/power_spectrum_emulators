@@ -21,4 +21,4 @@ The best prediction is given by the PCA version of the neural network, achieving
 
 Other tree-based methods (Random Forest regressors, LightGBM, XGBoost) are investigated but shown to perform worse.
 
-The 2 Jupyter notebooks show the results at redshift z=0. For other redshifts, the corresponding files can be easily modified in the notebook. Please also refer to the acocompagying paper for details.
+The 2 Jupyter notebooks show the results at redshift z=0. For other redshifts, the corresponding files can be easily modified in the notebook. Please also refer to the accompanying paper for details (https://arxiv.org/abs/2506.07514).
